@@ -26,11 +26,11 @@ TA|find the A character backwards in the line and set cursor right before it|
 ;|repeat last find-and-move command|
 ,|repeat last find-and-move command reversed direction|
 
-##Searching||
-/|search|
-?|search backwards|
-n|repeat last search|
-N|repeat last search backwards|
+##Searching | |
+/ | search |
+? | search backwards |
+n | repeat last search |
+N | repeat last search backwards |
 
 ##Editing||
 i|switch to insert mode|
