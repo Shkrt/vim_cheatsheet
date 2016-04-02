@@ -65,4 +65,4 @@ Esc|exit from edit mode|
 :w|write|
 :o|open file|
 :tabnew|open new tab|
-q!|quit without saving|
+:q!|quit without saving|
