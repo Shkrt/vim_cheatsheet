@@ -1,8 +1,9 @@
-##Moving around||
-j|move cursor down|
-k|move cursor up|
-l|move cursor right|
-h|move cursor left|
+Moving around | |
+--- | --- | --- |
+j | move cursor down |
+k | move cursor up |
+l | move cursor right |
+h | move cursor left |
 --:|--:|
 H|move cursor to the top of the view field|
 L|move cursor to the bottom of the view field|
@@ -26,36 +27,39 @@ TA|find the A character backwards in the line and set cursor right before it|
 ;|repeat last find-and-move command|
 ,|repeat last find-and-move command reversed direction|
 
-##Searching | |
+Searching | |
+--- | --- | --- |
 / | search |
 ? | search backwards |
 n | repeat last search |
 N | repeat last search backwards |
 
-##Editing||
-i|switch to insert mode|
-a|switch to insert mode|
-o|insert new line under cursor and switch to insert mode|
-r|replace one character|
-R|replace multiple characters|
-u|undo|
-dd|delete current line|
-4dd|delete 4 lines to bottom|
-dw|delete word|
-4dw|delete 4 words|
-cc|cut current line|
-5cc|cut 5 lines to bottom|
-c$|cut current line from cursor to end|
-c0|cut current line from cursor to beginning|
-yy|copy current line|
-y$|copy current line from cursor to end|
-y0|copy current line from cursor to beginning|
-6yy|copy 6 linex to bottom|
-p|paste from clipboard|
-x|delete character|
-v|select text|
+Editing||
+--- | --- | --- |
+i |switch to insert mode|
+a |switch to insert mode|
+o |insert new line under cursor and switch to insert mode|
+r |replace one character|
+R |replace multiple characters|
+u |undo|
+dd |delete current line|
+4dd |delete 4 lines to bottom|
+dw |delete word|
+4dw |delete 4 words|
+cc |cut current line|
+5cc |cut 5 lines to bottom|
+c$ |cut current line from cursor to end|
+c0 |cut current line from cursor to beginning|
+yy |copy current line|
+y$ |copy current line from cursor to end|
+y0 |copy current line from cursor to beginning|
+6yy |copy 6 linex to bottom|
+p |paste from clipboard|
+x |delete character|
+v |select text|
 
-##Commands||
+Commands||
+--- | --- | --- |
 :q|quit|
 Esc|exit from edit mode|
 :w|write|
