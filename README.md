@@ -53,7 +53,7 @@ c0 |cut current line from cursor to beginning|
 yy |copy current line|
 y$ |copy current line from cursor to end|
 y0 |copy current line from cursor to beginning|
-6yy |copy 6 linex to bottom|
+6yy |copy 6 lines to bottom|
 p |paste from clipboard|
 x |delete character|
 v |select text|
