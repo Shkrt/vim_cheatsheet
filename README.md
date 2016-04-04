@@ -4,14 +4,12 @@ j | move cursor down |
 k | move cursor up |
 l | move cursor right |
 h | move cursor left |
---:|--:|
 H|move cursor to the top of the view field|
 L|move cursor to the bottom of the view field|
 M|move cursor to the middle of the view field|
 C-u|PageUp-alike|
 C-d|PageDown-alike|
 56G|move to the line 56|
---:|--:|
 w|move to the beginning of next word|
 3w|move to the beginning of 3-rd word forward|
 e|move to the end of next word|
