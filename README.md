@@ -9,6 +9,12 @@
 |M|move cursor to the middle of the view field
 |C-u|PageUp-alike
 |C-d|PageDown-alike
+|C-w-j|move to a window at the bottom
+|C-w-l|move to a window on the right
+|C-w-H|move current window to the left
+|3C-w--|decrease height of the current window by 3
+|4C-w->|increase width of current window by 4
+|C-w=|equalize all windows
 |56G|move to the line 56|
 |w|move to the beginning of next word|
 |3w|move to the beginning of 3-rd word forward|
@@ -24,6 +30,9 @@
 |TA|find the A character backwards in the line and set cursor right before it|
 |;|repeat last find-and-move command|
 |,|repeat last find-and-move command reversed direction|
+|zz|center current line at viewport|
+|zt|move current line at viewport's top|
+|zb|move current line at vewport's bottom|
 
 |Searching ||
 --- | --- |
@@ -31,7 +40,7 @@
 |? | search backwards |
 |n | repeat last search |
 |N | repeat last search backwards |
-|%s/word/replacement/g|search and replace globally|
+
 
 |Editing||
 |--- | --- |
@@ -84,4 +93,9 @@
 |:o|open file|
 |:tabnew|open new tab|
 |:q!|quit without saving|
+|:%s/word/replacement/g|search and replace globally|
 |.|repeat last edit|
+|:new|open new window above|
+|:vnew|open new window beside|
+|:split|open new window above|
+|:vsplit|open new window beside|
