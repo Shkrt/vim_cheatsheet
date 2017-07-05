@@ -17,6 +17,7 @@
 |C-w=|equalize all windows
 |56G|move to the line 56|
 |w|move to the beginning of next word|
+|W|move to the word after next whitespace|
 |3w|move to the beginning of 3-rd word forward|
 |e|move to the end of next word|
 |3e|move to the end of 3-rd word forward|
@@ -33,6 +34,8 @@
 |zz|center current line at viewport|
 |zt|move current line at viewport's top|
 |zb|move current line at vewport's bottom|
+|+| move one line bottom to first non-whitespace character on the line|
+|-| move one line up to first non-whitespace character on the line|
 
 |Searching ||
 --- | --- |
@@ -92,8 +95,15 @@
 |:w|write|
 |:o|open file|
 |:tabnew|open new tab|
+|:tabe|open new tab|
+|:tabm4|move current tab to 4-th position|
+|:noh|Turn of current search results highlighting|
 |:q!|quit without saving|
 |:%s/word/replacement/g|search and replace globally|
+|:%s/word/replacement/gi|search and replace globally|, case insensitive
+|:s/word/replacement/g|search and replace on current line|
+|:44,65s/word/replacement/g|search and replace between line numbers|
+|:14,16d|delete lines from 14 to 16|
 |.|repeat last edit|
 |:new|open new window above|
 |:vnew|open new window beside|
